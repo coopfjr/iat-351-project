@@ -53,8 +53,8 @@ npx expo start
 
 ## Development Team
 *   Cooper Leong
-*   Joon Lee
 *   Mahesh Jograna
 *   Andrew D'Souza
 *   Ben Liu
+*   Joon Lee
 *   Course: IAT351
