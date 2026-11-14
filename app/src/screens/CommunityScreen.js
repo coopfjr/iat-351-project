@@ -432,7 +432,7 @@ export default function CommunityScreen() {
             accessibilityRole="button"
             accessibilityLabel={isFollowing ? `Unfollow ${item.displayName}` : `Follow ${item.displayName}`}
             accessibilityState={{ selected: isFollowing }}
-            style={{ minWidth: 86, minHeight: 40, paddingHorizontal: 12, borderRadius: 20, borderWidth: 1.5, borderColor: colors.ink, backgroundColor: isFollowing ? colors.ink : colors.white, alignItems: 'center', justifyContent: 'center' }}
+            style={{ minWidth: 86, minHeight: 44, paddingHorizontal: 12, borderRadius: 22, borderWidth: 1.5, borderColor: colors.ink, backgroundColor: isFollowing ? colors.ink : colors.white, alignItems: 'center', justifyContent: 'center' }}
           >
             <Text style={{ fontFamily: fonts.bold, fontSize: 13, color: isFollowing ? colors.white : colors.ink }}>{isFollowing ? 'Following' : 'Follow'}</Text>
           </TouchableOpacity>

@@ -181,7 +181,7 @@ const styles = StyleSheet.create({
   chipOn: { backgroundColor: colors.ink },
   chipOff: { backgroundColor: colors.white },
   chipText: { fontFamily: fonts.bold, fontSize: 15 },
-  scope: { minHeight: 40, paddingHorizontal: 16, borderRadius: 20, borderWidth: 1.5, justifyContent: 'center' },
+  scope: { minHeight: 44, paddingHorizontal: 16, borderRadius: 22, borderWidth: 1.5, justifyContent: 'center' },
   segment: { flexDirection: 'row', backgroundColor: colors.white, borderRadius: 26, padding: 4, borderWidth: 1.5, borderColor: colors.line },
   segBtn: { flex: 1, height: 44, borderRadius: 22, alignItems: 'center', justifyContent: 'center' },
   sheet: { backgroundColor: colors.white, borderTopLeftRadius: 32, borderTopRightRadius: 32, paddingHorizontal: 20, paddingTop: 12 },
